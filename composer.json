@@ -139,8 +139,9 @@
     "generate-assets": "bin/console mautic:assets:generate"
   },
   "config": {
+    "sort-packages": true,
     "platform": {
-      "php": "8.0"
+      "php": "7.4"
     },
     "bin-dir": "bin",
     "component-dir": "media/assets",
